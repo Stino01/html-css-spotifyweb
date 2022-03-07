@@ -147,6 +147,19 @@ main {
     right: 0;
 }
 
+.upgrade span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0 , -50%);
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 5px 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: white;
+}
+
 .main-content {
     width: 100%;
     height: 100%;
