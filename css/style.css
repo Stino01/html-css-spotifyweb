@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 
 .wrapper {
@@ -165,6 +166,54 @@ main {
     height: 100%;
     padding-top: 90px;
     overflow-y: auto;
+}
+
+.main-content nav {
+    padding-top: 20px;
+}
+
+
+.main-content nav ul{
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.main-content nav ul li a {
+    color: #B2B2B2;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-content h1 {
+    padding: 40px 30px;
+}
+
+.main-content section{
+    padding: 0 20px;
+}
+
+.card {
+    width: calc(100% / 6);
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h2 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.card h3 {
+    text-align: center;
+    color: #B2B2B2;
+    font-size: 14px;
 }
 
 footer {
