@@ -32,6 +32,10 @@ aside {
     color: white;
 }
 
+aside nav {
+    position: relative;
+}
+
 aside nav a {
     width: 100%;
 }
@@ -49,6 +53,8 @@ aside nav ul {
 aside nav ul li {
     padding: 7px 0;
 }
+
+
 
 aside nav ul li a {
     text-decoration: none;
@@ -86,7 +92,45 @@ aside nav a span{
 }
 
 .profile {
+    position: fixed;
+    bottom: 90px;
+    width: 190px;
+    margin: 0 auto;
+}
 
+.profile a {
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+.profile a:first-child {
+    border-bottom: 1px solid #B2B2B2;
+    font-size: 12px;
+}
+
+.profile a:first-child img{
+    height: 18px;
+}
+
+
+.profile a:last-child {
+    color: white;
+    font-weight: 600;
+}
+
+.profile a:last-child img {
+    background-color: #525252;
+    color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+} 
+
+.profile a img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    color: white;
 }
 
 main {
