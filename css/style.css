@@ -11,6 +11,10 @@
     align-items: stretch;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .wrapper {
     width: 100%;
     height: 100vh;
@@ -24,6 +28,65 @@
 aside {
     width: 240px;
     background-color: black;
+    padding: 0 25px;
+    color: white;
+}
+
+aside nav a {
+    width: 100%;
+}
+
+aside nav a img {
+    height: 90px;
+    width: 70%;
+    vertical-align: middle;
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+aside nav ul li {
+    padding: 7px 0;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 13px;
+}
+
+aside nav ul li a img {
+    width: 20%;
+    height: 25px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+aside nav h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+aside nav a {
+    padding: 10px 0;
+    color: #B2B2B2;
+    text-decoration: none;
+}
+
+aside nav a span{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    padding: 0px 10px;
+    background-color: #B2B2B2;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.profile {
+
 }
 
 main {
