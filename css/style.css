@@ -47,6 +47,13 @@ aside nav a img {
     width: 70%;
     vertical-align: middle;
 }
+aside nav .logo-small {
+    display: none;
+    height: 50px;
+    width: 90%;
+    vertical-align: middle;
+    padding-left: 5px;
+}
 
 aside nav ul {
     list-style-type: none;
@@ -77,7 +84,8 @@ aside nav ul .border a {
     padding-left: 23px;
 }
 
-aside nav ul li a {
+aside nav ul li a .text{
+    display: inline-block;
     text-decoration: none;
     color: #B2B2B2;
     font-size: 13px;
@@ -124,6 +132,10 @@ aside nav a span{
     padding: 10px 0;
     display: block;
     width: 100%;
+}
+
+.profile a .text {
+    display: inline-block;
 }
 
 .profile a:first-child {
