@@ -55,7 +55,12 @@ aside nav ul li {
     padding: 7px 0;
 }
 
-
+aside nav ul .border a {
+    border-left: 2px solid yellowgreen;
+    position: relative;
+    right: 25px;
+    padding-left: 23px;
+}
 
 aside nav ul li a {
     text-decoration: none;
@@ -97,6 +102,7 @@ aside nav a span{
     bottom: 90px;
     width: 190px;
     margin: 0 auto;
+    background-color: black;
 }
 
 .profile a {
@@ -145,7 +151,7 @@ main {
     background-color: rgba(0, 0, 0, 0.3);
     position: fixed;
     top: 0;
-    right: 0;
+    right: 10px;
 }
 
 .upgrade span {
@@ -188,8 +194,26 @@ main {
     font-weight: 500;
 }
 
+.main-content nav ul li:first-child a {
+    position: relative;
+}
+
+.main-content nav ul li:first-child a:before {
+    content : "";
+    position: absolute;
+    left    : 30%;
+    bottom  : 0;
+    width   : 40%;
+    border-bottom: 2px solid greenyellow;
+  }
+
 .main-content h1 {
-    padding: 40px 30px;
+    padding: 20px 30px;
+}
+
+.main-content p {
+    padding-left: 30px;
+    color: #B2B2B2;
 }
 
 .main-content section{
@@ -203,6 +227,12 @@ main {
 
 .card img {
     width: 100%;
+}
+
+
+.card .circle img {
+    border: none;
+    border-radius: 50%;
 }
 
 .card h2 {
