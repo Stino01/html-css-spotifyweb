@@ -39,6 +39,7 @@ aside nav {
 
 aside nav a {
     width: 100%;
+    transition: .5s ease;
 }
 
 aside nav a img {
@@ -53,6 +54,20 @@ aside nav ul {
 
 aside nav ul li {
     padding: 7px 0;
+}
+
+aside nav ul li a {
+    transition: .5s ease;
+}
+
+
+aside nav ul li a:hover {
+    color: white;
+    font-weight: 600;
+}
+
+aside nav a:hover {
+    color: white;
 }
 
 aside nav ul .border a {
@@ -166,6 +181,11 @@ main {
     font-size: 14px;
     color: white;
     margin-right: 10px;
+    transition: .5s ease;
+}
+
+.upgrade span:hover {
+    font-size: 18px;
 }
 
 .main-content {
@@ -193,6 +213,11 @@ main {
     padding: 5px 10px;
     text-transform: uppercase;
     font-weight: 500;
+    transition: .5s ease;
+}
+
+.main-content nav ul li a:hover {
+    color: white
 }
 
 .main-content nav ul li:first-child a {
@@ -226,12 +251,60 @@ main {
     padding: 10px;
 }
 
+.image-holder {
+    position: relative;
+}
+  
+.image-holder img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+.image-holder:hover img {
+    opacity: 0.3;
+  }
+  
+.image-holder:hover .middle {
+    opacity: 1;
+  }
+  
+.middle i {
+    font-size: 40px;
+  }
+
+.card .opaco {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    background-color: #181818;
+    opacity: 0;
+}
+
+.card img:hover .opaco {
+    opacity: 0.5;
+}
+
 .card img {
     width: 100%;
 }
 
 
-.card .circle img {
+.card .cerchio img {
     border: none;
     border-radius: 50%;
 }
@@ -283,10 +356,25 @@ footer {
 .first section span {
     font-size: 12px;
     color: #B2B2B2;
+    transition: .5s ease;
+}
+
+.first section span:hover {
+    text-decoration: underline;
 }
 
 .first i {
     padding-right: 20px;
+}
+
+footer .first, .third i {
+    color: #525252;
+    transition: .5s ease;
+}
+
+footer i:hover {
+    color: white;
+    font-size: 18px;
 }
 
 .second {
@@ -315,6 +403,11 @@ footer {
 .second .action .fa-circle-play {
     padding: 10px 25px;
     font-size: 32px;
+    transition: .5s ease;
+}
+
+.second .action .fa-circle-play:hover {
+    font-size: 35px;
 }
 
 .status {
@@ -328,6 +421,8 @@ footer {
     border-radius: 10px;
     background-color: #525252;
     margin: 0 20px;
+    position: relative;
+    transition: .5s ease;
 }
 
 .second .time-on {
@@ -335,6 +430,22 @@ footer {
     width: 20%;
     border-radius: 10px;
     background-color: #B2B2B2;
+}
+
+.circle {
+    max-width: 14px;
+    max-height: 14px;
+    min-height: 14px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 18%;
+    bottom: -4px;
+    display: none;
+}
+
+.second .time:hover .circle {
+    display: block;
 }
 
 .third {
@@ -350,6 +461,12 @@ footer {
     width: 8vw;
     border-radius: 10px;
     background-color: #525252;
+    transition: .5s ease;
+    position: relative;
+}
+
+.third .volume:hover .circle {
+    display: block;
 }
 
 .third .volume-on {
