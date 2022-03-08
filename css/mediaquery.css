@@ -1,0 +1,69 @@
+@media screen and (max-width: 992px) {
+    .card {
+        width: calc(100% / 4);
+        padding: 5px;
+    }
+    .main-content section{
+        flex-flow: row wrap;
+    }
+}
+@media screen and (max-width: 786px) {
+    .card {
+        width: calc(100% / 2);
+        padding: 5px;
+    }
+    .main-content section{
+        flex-flow: row wrap;
+    }
+    .card h2 {
+        font-size: 2vw;
+    }
+    .card h3 {
+        font-size: 1.4vw;
+    }
+    .main-content h1 {
+        font-size: 2.5vw;
+    }
+    .main-content p {
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 576px) {
+    .card {
+        width: calc(100% / 2);
+        padding: 5px;
+    }
+    .main-content section{
+        flex-flow: row wrap;
+    }
+    .card h2 {
+        font-size: 2vw;
+    }
+    .card h3 {
+        font-size: 1.4vw;
+    }
+    .main-content h1 {
+        font-size: 2.5vw;
+    }
+    .main-content p {
+        font-size: 1.5vw;
+    }
+    aside {
+        width: 50px;
+    }
+    aside nav {
+        display: none;
+    }
+    main {
+        width: calc(100% - 50px);
+
+    }
+    .second .action i {
+        font-size: 18px;
+        padding: 10px 5px;
+    }
+    .second .action .fa-circle-play {
+        padding: 10px 5px;
+        font-size: 32px;
+    }
+}

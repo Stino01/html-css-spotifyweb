@@ -214,6 +214,7 @@ main {
     text-transform: uppercase;
     font-weight: 500;
     transition: .5s ease;
+    font-size: 12px;
 }
 
 .main-content nav ul li a:hover {
@@ -234,10 +235,12 @@ main {
   }
 
 .main-content h1 {
+    font-size: 2vw;
     padding: 20px 30px;
 }
 
 .main-content p {
+    font-size: 1vw;
     padding-left: 30px;
     color: #B2B2B2;
 }
@@ -312,12 +315,13 @@ main {
 .card h2 {
     padding: 10px 0;
     text-align: center;
+    font-size: 1.1vw;
 }
 
 .card h3 {
     text-align: center;
     color: #B2B2B2;
-    font-size: 14px;
+    font-size: 0.7vw;
 }
 
 footer {
