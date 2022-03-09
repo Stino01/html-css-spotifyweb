@@ -625,3 +625,53 @@ footer i:hover {
 ::-webkit-scrollbar-thumb:hover {
     background: #898989; 
 }
+
+/* bonus pagina metal */
+.intestazione {
+    background: rgb(35,14,12);
+    background: linear-gradient(0deg, rgba(35,14,12,1) 0%, rgba(128,28,20,1) 100%);
+    height: 50vh;
+    align-items: flex-end;
+    padding-bottom: 25px;
+}
+
+.container-album {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.container-album img {
+    width: 230px;
+    height: 230px;
+}
+
+.titolo {
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding: 0 25px;
+}
+
+.titolo h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.titolo h1 {
+    padding: 20px 0;
+    font-size: 70px;
+}
+
+.titolo p {
+    font-size: 14px;
+}
+
+.titolo p:first-of-type {
+    color: #B2B2B2;
+}
+
+.titolo i {
+    font-size: 6px;
+    vertical-align: middle;
+}

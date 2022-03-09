@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="wrapper-content flex-container">
+            <!-- barra laterale -->
+            <aside>
+                <nav>
+                    <!-- logo -->
+                    <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+                    <img class="logo-small" src="img/logo-small.svg" alt="logo-small">
+                    <!-- prima lista barra laterale -->
+                    <ul>
+                        <li><a href="index.html"><img src="img/home.svg" alt=""><p class="text"> Home</p></a></li>
+                        <li><a href="#"><img src="img/search.svg" alt=""><p class="text"> Cerca</p></a></li>
+                        <li><a href="#"><img src="img/libreria.svg" alt=""><p class="text"> La tua libreria</p></a></li>
+                    </ul>
+                    <h3>Playlist</h3>
+                    <a href="#" class="play"><span>+</span> Crea Playlist</a>
+                    <!-- seconda lista barra laterale -->
+                    <ul class="playlist">
+                        <li><a href="#"><p class="text">Brani top Globale</p></a></li>
+                        <li><a href="#"><p class="text">Viral 50 Italia</p></a></li>
+                        <li><a href="#"><p class="text">Mix Pop</p></a></li>
+                        <li><a href="#"><p class="text">Mix Chill</p></a></li>
+                        <li><a href="#"><p class="text">Discover Weekly</p></a></li>
+                        <li><a href="#"><p class="text">Daily Mix</p></a></li>
+                        <li><a href="#"><p class="text">Released Radar</p></a></li>
+                    </ul>
+                    <!-- terza lista laterale posizionata in fondo al menu -->
+                    <div class="profile">
+                        <a href="#"><img src="img/download.svg" alt=""><p class="text">Installa App</p> </a>
+                        <a href="#"><img src="img/profile.svg" alt=""><p class="text">John Doe</p> </a>
+                    </div>
+                </nav>
+            </aside>
+
+            <main>
+                <!-- tasto upgrade account con posizionamento fixed -->
+                <div class="upgrade">
+                    <span>Effettua l'upgrade</span>
+                </div>
+                <div class="album">
+                    <div class="intestazione flex-container">
+                        <div class="container-album flex-container">
+                        <img src="img/metal_lifting.jpg" alt="metal">
+                        <section class="titolo flex-container">
+                            <h3>Album</h3>
+                            <h1>Heavy Metal</h1>
+                            <p>Heavy Metal forever. From classics to fresh new tracks, just play it loud!</p>
+                            <p>Spotify <i class="fa-solid fa-circle"></i> 605.376 Mi piace <i class="fa-solid fa-circle"></i> 8 brani, circa 30min</p>
+                        </section>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+        </div>
+    </div>
+    <footer class="flex-container">
+        <!-- parte sinistra del footer -->
+        <div class="first flex-container">
+            <img src="img/sinister.jpeg" alt="sinister">
+            <section>
+                <h3>Sinister</h3>
+                <span>Brano Nome</span>
+            </section>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-folder"></i>
+        </div>
+        <!-- parte centrale del footer -->
+        <div class="second flex-container">
+            <div class="action flex-container">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+            <div class="status flex-container">
+                <span>0:25</span>
+                <div class="time">
+                    <div class="time-on">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <span>4:35</span>
+            </div>
+        </div>
+        <!-- parte destra del footer -->
+        <div class="third flex-container">
+            <i class="fa-solid fa-list-ul terzo"></i>
+            <i class="fa-solid fa-desktop terzo">
+                <!-- bonus 1 (collega dispositivo) -->
+                <div class="dispositivo">
+                    <div class="disp-container flex-container">
+                        <div class="top-disp flex-container">
+                            <h2>Collega a un dispositivo</h2>
+                            <i class="fa-solid fa-circle-question"></i>     
+                        </div>
+                        <div class="disp-img"><img src="img/disp.png" alt="disp"></div>
+                    </div>
+                    <div class="disp flex-container" id="green">
+                        <i class="fa-solid fa-laptop" id="green"></i>
+                        <div class="text flex-container">
+                            <p id="green">In ascolto su</p>
+                            <span>Questo browser web</span>
+                        </div>
+                    </div>
+                    <div class="disp flex-container">
+                        <i class="fa-solid fa-headphones"></i>
+                        <div class="text flex-container">
+                            <p>Headphone</p>
+                            <span>Questo browser web</span>
+                        </div>
+                    </div>
+                    <div class="disp flex-container">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <div class="text flex-container">
+                            <p>Disc</p>
+                            <span>Questo browser web</span>
+                        </div>
+                    </div>
+                </div>
+            </i>
+            <i class="fa-solid fa-volume-high terzo"></i>
+            <div class="volume">
+                <div class="volume-on">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
