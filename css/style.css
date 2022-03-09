@@ -42,6 +42,10 @@ aside nav a {
     transition: .5s ease;
 }
 
+/* aside nav .playlist {
+    overflow-y: auto;
+} */
+
 aside nav a img {
     height: 90px;
     width: 70%;
@@ -179,6 +183,7 @@ main {
     position: fixed;
     top: 0;
     right: 0px;
+    z-index: 1000;
 }
 
 .upgrade span {
@@ -449,6 +454,7 @@ footer i:hover {
 }
 
 .circle {
+    width: 14px;
     max-width: 14px;
     max-height: 14px;
     min-height: 14px;
@@ -464,6 +470,10 @@ footer i:hover {
     display: block;
 }
 
+.second .time:hover .time-on {
+    background-color: yellowgreen;
+}
+
 .third {
     width: 20%;
     height: 100%;
@@ -477,12 +487,17 @@ footer i:hover {
     width: 8vw;
     border-radius: 10px;
     background-color: #525252;
-    transition: .5s ease;
     position: relative;
+    transition: .5s ease;
 }
+
 
 .third .volume:hover .circle {
     display: block;
+}
+
+.third .volume:hover .volume-on {
+    background-color: yellowgreen;
 }
 
 .third .volume-on {
@@ -493,5 +508,6 @@ footer i:hover {
 }
 
 .third i {
-    padding: 0 10px;
+    padding: 0 20px 0 0;
+    margin-right: -1px;
 }

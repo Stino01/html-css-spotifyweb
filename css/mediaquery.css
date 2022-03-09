@@ -104,7 +104,22 @@
         padding: 10px 5px;
         font-size: 32px;
     }
+    .first {
+        flex-flow: row wrap;
+    }
     .first i {
-        display: block;
+        padding-right: 2px;
+    }
+    .first section {
+        padding: 0;
+    }
+    .first img {
+        margin-left: 36px;
+    }
+    .third {
+        flex-flow: row wrap;
+    }
+    .third .volume {
+        width: 100%;
     }
 }
