@@ -706,6 +706,7 @@ footer i:hover {
 .numero {
     width: 3%;
     text-align: center;
+    position: relative;
 }
 
 .nome {
@@ -862,4 +863,67 @@ footer i:hover {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+/* bonus pagina search */
+.icon {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    display: none;
+}
+.icon span {
+    width: 3px;
+    height: 100%;
+    background-color: #1DB954;
+    border-radius: 3px;
+    transform-origin: bottom;
+    animation: bounce 2.2s ease infinite alternate;
+    content: '';
+}
+  
+@keyframes bounce {
+    10% {
+      transform: scaleY(0.3);
+    }
+  
+    30% {
+      transform: scaleY(1);
+    }
+  
+    60% {
+      transform: scaleY(0.5);
+    }
+  
+    80% {
+      transform: scaleY(0.75);
+    }
+  
+    100% {
+      transform: scaleY(0.6);
+    }
+}
+  
+span:nth-of-type(2) {
+    animation-delay: -2.2s;
+}
+  
+span:nth-of-type(3) {
+    animation-delay: -3.7s;
+}
+
+.numero > span {
+    position: relative;
+}
+
+.numero > span:active {
+    display: none;
+}
+
+.numero > span:active .icon{
+    display: block;
 }
