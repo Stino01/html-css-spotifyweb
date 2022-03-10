@@ -296,7 +296,7 @@ main {
     text-align: center;
 }
 
-.middle .fa-play {
+.fa-play {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -628,23 +628,36 @@ footer i:hover {
 
 /* bonus pagina metal */
 .intestazione {
-    background: rgb(35,14,12);
-    background: linear-gradient(0deg, rgba(35,14,12,1) 0%, rgba(128,28,20,1) 100%);
-    height: 50vh;
+    background: rgb(20,25,34);
+    background: linear-gradient(0deg, rgba(20,25,34,1) 0%, rgba(126,28,20,1) 100%);
+    height: 40vh;
     align-items: flex-end;
     padding-bottom: 25px;
+}
+
+.album {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    padding-bottom: 30px;
 }
 
 .container-album {
     width: 90%;
     margin: 0 auto;
-    justify-content: flex-start;
-    align-items: flex-end;
+    flex-flow: column nowrap;
 }
 
 .container-album img {
     width: 230px;
     height: 230px;
+}
+
+.unione {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .titolo {
@@ -661,6 +674,7 @@ footer i:hover {
 .titolo h1 {
     padding: 20px 0;
     font-size: 70px;
+    font-weight: 900;
 }
 
 .titolo p {
@@ -674,4 +688,79 @@ footer i:hover {
 .titolo i {
     font-size: 6px;
     vertical-align: middle;
+}
+
+.container-album .fa-play {
+    font-size: 30px;
+    padding: 10px 0 0 15px;
+    margin-bottom: 30px;
+}
+
+.liste {
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #525252;
+    padding-bottom: 5px;
+}
+
+.numero {
+    width: 3%;
+    text-align: center;
+}
+
+.nome {
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.aggiunto {
+    width: 25%;
+    text-transform: uppercase;
+}
+
+.durata {
+    width: 7%;
+    text-align: center;
+}
+
+.song {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0;
+    align-items: center;
+    font-size: 14px;
+}
+
+.song:hover {
+    background-color: rgba(42,42,42,1);
+    border: none;
+    border-radius: 7px;
+}
+
+.song .nome {
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    text-transform: none;
+}
+
+.song .nome .author {
+    color: #B2B2B2;
+    font-size: 12px;
+}
+
+.song .nome .author:hover {
+    text-decoration: underline;
+}
+
+.song .aggiunto {
+    text-transform: none;
+}
+
+.durata .nasc {
+    padding: 0 5px;
+    display: none;
+}
+
+.song:hover .nasc {
+    display: inline-block;
 }
