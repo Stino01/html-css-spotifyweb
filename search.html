@@ -25,8 +25,8 @@
                     <img class="logo-small" src="img/logo-small.svg" alt="logo-small">
                     <!-- prima lista barra laterale -->
                     <ul>
-                        <li class="border"><a href="index.html"><img src="img/home.svg" alt=""><p class="text"> Home</p></a></li>
-                        <li><a href="search.html"><img src="img/search.svg" alt=""><p class="text"> Cerca</p></a></li>
+                        <li><a href="index.html"><img src="img/home.svg" alt=""><p class="text"> Home</p></a></li>
+                        <li class="border"><a href="search.html"><img src="img/search.svg" alt=""><p class="text"> Cerca</p></a></li>
                         <li><a href="#"><img src="img/libreria.svg" alt=""><p class="text"> La tua libreria</p></a></li>
                     </ul>
                     <h3>Playlist</h3>
@@ -54,130 +54,67 @@
                 <div class="upgrade">
                     <span>Effettua l'upgrade</span>
                 </div>
-                <div class="main-content">
-                    <!-- barra di navigazione interna -->
-                    <nav>
-                        <ul class="flex-container">
-                            <li><a href="#">In evidenza</a></li>
-                            <li><a href="#">Podcast</a></li>
-                            <li><a href="#">Classifiche</a></li>
-                            <li><a href="#">Generi e mood</a></li>
-                            <li><a href="#">Nuove uscite</a></li>
-                            <li><a href="#">Scopri</a></li>
-                        </ul>
-                    </nav>
-                    <!-- insieme di playlist, autori ecc... -->
-                    <h1>Recently Played</h1>
-                    <section class="flex-container">
-                        <div class="card">
-                            <a href="metal.html"><div class="image-holder">
-                                <img src="img/metal_lifting.jpg" alt="metal">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
-                            </div></a>
-                            <h2>Heavy Metal</h2>
-                            <h3>Subtitle</h3>
+                <div class="search">
+                    <div class="container-search flex-container">
+                        <div class="search-bar flex-container">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>Artisti, brani o podcast</span>
                         </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/stranger.jpeg" alt="stranger">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
+                        <h2>Ricerche Recenti</h2>
+                        <div class="recent flex-container">
+                            <div class="card">
+                                <a href="metal.html"><div class="image-holder">
+                                    <img src="img/metal_lifting.jpg" alt="metal">
+                                    <div class="middle">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                </div></a>
+                                <h2>Heavy Metal</h2>
                             </div>
-                            <h2>Stranger Things, Vol 1 (a Netflix Original Series Soundtrack)</h2>
-                            <h3>Subtitle</h3>
-                        </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/aquietplace.jpeg" alt="quiet">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
+                            <div class="card">
+                                <div class="image-holder">
+                                    <img src="img/split.jpeg" alt="split">
+                                    <div class="middle">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
                                 </div>
+                                <h2>Split</h2>
                             </div>
-                            <h2>A quiet place</h2>
-                            <h3>Subtitle</h3>
-                        </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/split.jpeg" alt="split">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
+                            <div class="card">
+                                <div class="image-holder">
+                                    <img src="img/cure.jpeg" alt="cure">
+                                    <div class="middle">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
                                 </div>
+                                <h2>A cure for wellnes</h2>
                             </div>
-                            <h2>Split</h2>
-                            <h3>Subtitle</h3>
                         </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/cure.jpeg" alt="cure">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
+                        <h3>I tuoi generi top</h3>
+                        <div class="your-gen flex-container">
+                            <div class="box orange">
+                                <span>Hip Hop</span> 
+                                <div class="small-box"><img src="img/hiphop.png" alt="hip hop"></div>
                             </div>
-                            <h2>A cure for wellnes</h2>
-                            <h3>Subtitle</h3>
-                        </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/sinister.jpeg" alt="sinister">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
+                            <div class="box violet">
+                                <span>Pop</span>
+                                <div class="small-box"><img src="img/pop.png" alt="pop"></div>
                             </div>
-                            <h2>Sinister</h2>
-                            <h3>Subtitle</h3>
-                        </div>
-                    </section>
-                    <h1>Creato per John Doe</h1>
-                    <p>Più ascolti, più accurati saranno i suggerimenti.</p>
-                    <section class="flex-container">
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/radar.jpeg" alt="radar">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
+                            <div class="box rose">
+                                <span>Latina</span>
+                                <div class="small-box"><img src="img/latina.png" alt="latina"></div>
                             </div>
-                            <h2>Release Radar</h2>
+                            <div class="box green">
+                                <span>Indie</span>
+                                <div class="small-box"><img src="img/indie.png" alt="indie"></div>
+                            </div>
                         </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <img src="img/mixdaily.jpeg" alt="mix">
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
-                            </div>                           
-                            <h2>Daily Mix 1</h2>
-                        </div>
-                    </section>
-                    <h1>Artisti popolari</h1>
-                    <p>Più ascolti, più accurati saranno i suggerimenti.</p>
-                    <section class="flex-container">
-                        <div class="card">
-                            <div class="image-holder">
-                                <div class="cerchio"><img src="img/youg.jpeg" alt="youg"></div>
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
-                            </div>  
-                            <h2>Lana Del Rey</h2>
-                        </div>
-                        <div class="card">
-                            <div class="image-holder">
-                                <div class="cerchio"><img src="img/einaudi.jpeg" alt="einaudi"></div>
-                                <div class="middle">
-                                    <i class="fa-solid fa-play"></i>
-                                </div>
-                            </div>  
-                            <h2>Ludovico Einaudi</h2>
-                        </div>
-                    </section>
+                    </div>
                 </div>
             </main>
         </div>
     </div>
+    
     <footer class="flex-container">
         <!-- parte sinistra del footer -->
         <div class="first flex-container">

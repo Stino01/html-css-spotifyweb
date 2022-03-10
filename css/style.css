@@ -764,3 +764,102 @@ footer i:hover {
 .song:hover .nasc {
     display: inline-block;
 }
+
+/* bonus pagina search */
+.search {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.container-search {
+    width: 90%;
+    margin: 0 auto;
+    flex-flow: column nowrap;
+    margin-top: 120px;
+}
+
+.search-bar {
+    width: 400px;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.search-bar i {
+    color: black;
+    font-size: 22px;
+    padding-right: 10px;
+}
+
+.search-bar span {
+    color: #B2B2B2;
+    font-size: 14px;
+}
+
+.container-search h2 {
+    padding: 30px 0;
+    font-size: 24px;
+}
+.container-search h3 {
+    padding-bottom: 10px;
+}
+
+.recent .card:first-of-type {
+    margin-left: -10px;
+}
+
+.your-gen {
+    flex-flow: row wrap;
+}
+
+.box {
+    width: calc((100% - 80px) / 4);
+    height: 220px;
+    margin: 10px 20px 10px 0;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+.orange {
+    background-color: #BA5D07;
+}
+
+.violet {
+    background-color: #8D67AB;
+}
+
+.rose {
+    background-color: #E1118B;
+}
+
+.green {
+    background-color: #608108;
+}
+
+.box span {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.box .small-box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: rotate(30deg);
+}
+
+.box .small-box img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
